@@ -8,9 +8,9 @@ Promise wrapper for errbacks
 
     var promisfiy = require('r-promisify');
     var existsAsync = promisify(require('fs').exists);
-    existsAsync('path').then(...)
+    existsAsync('path').then(...);
     
 Or alternatively:
 
-    require('r-promisify');
-    var existsAsync = require('fs').exists.promise();
+    require('r-promisify')(require('fs'));
+    fs.existsAsync('path').then(...);
