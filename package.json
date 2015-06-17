@@ -1,0 +1,14 @@
+{
+  "name": "r-promisify",
+  "version": "0.0.1",
+  "description": "Promise wrapper for errbacks",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rysenko/r-promisify"
+  },
+  "license": "MIT",
+  "main": "lib/promisify.js",
+  "dependencies": {
+    "es6-promise": "^2.3.0"
+  }
+}
